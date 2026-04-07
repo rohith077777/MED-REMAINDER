@@ -1,0 +1,92 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.app {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* Screens */
+.screen {
+  display: none;
+}
+.screen.active {
+  display: block;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #16a34a;
+  color: white;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #15803d;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+/* Cards */
+.card {
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Action Buttons */
+.icon-btn {
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.green {
+  background: #22c55e;
+  color: white;
+}
+
+.red {
+  background: #ef4444;
+  color: white;
+}
